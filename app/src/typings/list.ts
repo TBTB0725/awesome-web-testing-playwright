@@ -1,6 +1,6 @@
-import Card from './card';
+import type Card from './card';
 
-interface List {
+export default interface List {
   boardId: number;
   name: string;
   id: number;
@@ -8,5 +8,3 @@ interface List {
   created: string;
   cards: Card[];
 }
-
-export default List;

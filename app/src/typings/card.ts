@@ -1,4 +1,4 @@
-interface Card {
+export default interface Card {
   boardId: number;
   listId: number;
   name: string;
@@ -10,5 +10,3 @@ interface Card {
   completed: boolean;
   order: number;
 }
-
-export default Card;

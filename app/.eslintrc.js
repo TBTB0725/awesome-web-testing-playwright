@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-recommended',
-    'plugin:tailwind/recommended'
+    'plugin:tailwindcss/recommended'
   ],
   parserOptions: {
     ecmaVersion: 12,

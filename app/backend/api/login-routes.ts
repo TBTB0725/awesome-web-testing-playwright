@@ -1,45 +1,35 @@
-const axios = require('axios')
-const jws = require('jws-jwk');
-const _ = require('lodash')
+const jose = require('jose');
 const jsonServer = require('json-server');
 const app = jsonServer.create();
 
-app.post('/', (req, res, next) => { 
+const JWKS = jose.createRemoteJWKSet(
+  new URL('https://www.googleapis.com/oauth2/v3/certs')
+);
 
+app.post('/', async (req, res, next) => {
   if (req.body.jwt) {
-
-    const token = req.body.jwt.split('.')[0] 
-    const userInfo = req.body.jwt.split('.')[1] 
-  
-    const { kid } = JSON.parse(Buffer.from(token, 'base64').toString())
-    const { email } = JSON.parse(Buffer.from(userInfo, 'base64').toString())
-
-    if (kid && email) {
-      axios.get('https://www.googleapis.com/oauth2/v3/certs')
-      .then( ({ data: { keys } }) => {
-        const jwk = _.find(keys, { kid })
-        const validation = jws.verify(req.body.jwt, jwk);
-        if (validation) {
-          req.body = { email, password: kid }
-          next()
+    try {
+      const { payload, protectedHeader } = await jose.jwtVerify(
+        req.body.jwt,
+        JWKS,
+        {
+          issuer: ['https://accounts.google.com', 'accounts.google.com'],
         }
-        else {
-          const response = res.status(401).jsonp('Invalid authorization');
-
-          return response;
-        }
-      })
+      );
+      const email = payload.email;
+      const kid = protectedHeader.kid;
+      if (kid && typeof email === 'string' && email) {
+        req.body = { email, password: kid };
+        next();
+      } else {
+        return res.status(401).jsonp('Invalid authorization');
+      }
+    } catch (_err) {
+      return res.status(401).jsonp('Invalid authorization');
     }
-    else {
-      const response = res.status(401).jsonp('Invalid authorization');
-      return response
-    }
-
+  } else {
+    next();
   }
-  else {
-    next()
-  }
-
-})
+});
 
 export default app;
