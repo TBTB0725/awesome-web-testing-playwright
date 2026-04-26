@@ -25,6 +25,7 @@ Before starting this tutorial, clone this repository to your machine and set up 
 
 ```sh
 # Clone the repository
+# If you forked it, change the username in the repository path
 git clone https://github.com/AutomationPanda/awesome-web-testing-playwright.git
 
 # Change directory into the web app directory
@@ -48,6 +49,11 @@ but later versions of Playwright should be okay to use.
 > The Playwright browsers are a few hundred MBs large,
 > and you could fall behind if you are stuck waiting for slow downloads over WiFi.
 
+> [!TIP]
+> If you have a GitHub account, you should
+> [fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+> so that you have your own copy of it.
+> Then, you can make your own commits and pushes to better record your progress.
 
 ## Tutorial instructions
 

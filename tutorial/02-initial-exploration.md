@@ -9,6 +9,14 @@ by creating a new project and running the example tests.
 
 If you haven't already done so as part of [tutorial preparations]((../README.md#tutorial-setup)),
 let's set up the project.
+
+> [!TIP]
+> If you have a GitHub account, you should
+> [fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+> so that you have your own copy of it.
+> Then, you can make your own commits and pushes to better record your progress.
+> Be sure to use the repository address for your forked version in the commands below.
+
 Clone this repository from GitHub:
 
 ```sh
