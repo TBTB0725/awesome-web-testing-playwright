@@ -40,7 +40,8 @@ npm init playwright@latest
 
 Choose the default options for each prompt.
 Choose YES to install the Playwright browsers.
-This tutorial was initially created with Playwright 1.36.1,
+This tutorial was initially created with Playwright 1.36.1
+and has been updated to work with Playwright 1.59.0,
 but later versions of Playwright should be okay to use.
 
 > [!IMPORTANT]

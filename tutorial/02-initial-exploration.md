@@ -60,7 +60,7 @@ The command will also install the Playwright browser projects: Chromium, Firefox
 Beware that browser installation may take several minutes if your Internet connection is slow.
 
 *Note:*
-This tutorial was last updated with Playwright 1.55.0.
+This tutorial was last updated with Playwright 1.59.0.
 Things might change in future versions.
 
 
