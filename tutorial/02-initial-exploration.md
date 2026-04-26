@@ -58,9 +58,9 @@ This command will create a bunch of new project files, including:
 The command will also install the Playwright browser projects: Chromium, Firefox, and WebKit.
 Beware that browser installation may take several minutes if your Internet connection is slow.
 
-*Note:*
-This tutorial was last updated with Playwright 1.59.0.
-Things might change in future versions.
+> [!NOTE]
+> This tutorial was last updated with Playwright 1.59.0.
+> Things might change in future versions.
 
 
 ## Running the tests visually

@@ -48,8 +48,9 @@ and you should see the app's "Get Started!" page:
 
 ![Trello Get Started page](images/ch03/trello-get-started.png)
 
-**Note:** All commands and code will be done inside the [`app`](../app/) directory.
-Make sure to treat it as your "root" directory.
+> [!NOTE]
+> All commands and code will be done inside the [`app`](../app/) directory.
+> Make sure to treat it as your "root" directory.
 
 
 ## Generating a script
