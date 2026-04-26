@@ -17,9 +17,16 @@ You will need the following tools:
 1. A recent version of [Node.js](https://nodejs.org/).
 2. A good editor like [Visual Studio Code](https://code.visualstudio.com/) with the [Playwright extension](https://playwright.dev/docs/getting-started-vscode).
 3. A [GitHub](https://github.com/) account with a [Git](https://git-scm.com/) client.
+4. An AI coding agent like [Claude](https://code.claude.com/docs/en/overview), [Cursor](https://cursor.com/), or [Copilot](https://github.com/copilot) (if you want to try Playwright's AI capabilities).
 
 
 ## Tutorial setup
+
+> [!TIP]
+> If you have a GitHub account, you should
+> [fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+> so that you have your own copy of it.
+> Then, you can make your own commits and pushes to better record your progress.
 
 Before starting this tutorial, clone this repository to your machine and set up the project:
 
@@ -50,12 +57,6 @@ but later versions of Playwright should be okay to use.
 > The Playwright browsers are a few hundred MBs large,
 > and you could fall behind if you are stuck waiting for slow downloads over WiFi.
 
-> [!TIP]
-> If you have a GitHub account, you should
-> [fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-> so that you have your own copy of it.
-> Then, you can make your own commits and pushes to better record your progress.
-
 ## Tutorial instructions
 
 There are eight core chapters:
@@ -69,9 +70,7 @@ There are eight core chapters:
 7. Running tests with GitHub Actions
 8. Learning and practicing more
 
-An optional **bonus** chapter builds on the same app and the skills above:
-
-* [Generating tests with AI](tutorial/bonus-ai.md) — using Playwright’s Agent CLI and MCP with coding assistants
+An optional bonus chapter teaches how to use Playwright’s CLI and MCP with AI coding assistants to generate tests.
 
 Chapter-by-chapter tutorial instructions are provided under the `tutorial` folder.
 This repository also contains each chapter's example code under the `chapter-code` folder.
