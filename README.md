@@ -39,13 +39,14 @@ npm init playwright@latest
 
 Choose the default options for each prompt.
 Choose YES to install the Playwright browsers.
-This tutorial was created with Playwright 1.36.1,
+This tutorial was initially created with Playwright 1.36.1,
 but later versions of Playwright should be okay to use.
 
-*Warning:*
-**Complete these steps *before* taking this tutorial as part of a live session** (like at a conference or a webinar).
-The Playwright browsers are a few hundred MBs large,
-and you could fall behind if you are stuck waiting for slow downloads over WiFi.
+> [!IMPORTANT]
+> **Complete these steps *before* taking this tutorial as part of a live session**
+> (like at a conference or a webinar).
+> The Playwright browsers are a few hundred MBs large,
+> and you could fall behind if you are stuck waiting for slow downloads over WiFi.
 
 
 ## Tutorial instructions
