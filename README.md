@@ -58,7 +58,7 @@ but later versions of Playwright should be okay to use.
 
 ## Tutorial instructions
 
-There are eight chapters in total:
+There are eight core chapters:
 
 1. Setting modern web testing goals
 2. Exploring Playwright's features
@@ -68,6 +68,10 @@ There are eight chapters in total:
 6. Scaling tests with parallel execution
 7. Running tests with GitHub Actions
 8. Learning and practicing more
+
+An optional **bonus** chapter builds on the same app and the skills above:
+
+* [Generating tests with AI](tutorial/bonus-ai.md) — using Playwright’s Agent CLI and MCP with coding assistants
 
 Chapter-by-chapter tutorial instructions are provided under the `tutorial` folder.
 This repository also contains each chapter's example code under the `chapter-code` folder.
