@@ -14,10 +14,10 @@ For this tutorial, we will use a Trello-like web app developed by [Filip Hric](h
 The app is written in TypeScript using Vue 3, Vite, and Tailwind CSS.
 Filip has granted his permission for us to use this project.
 
-The GitHub repository for this app is:<br>
+The original GitHub repository for this app is:<br>
 https://github.com/filiphric/trelloapp-vue-vite-ts
 
-The code for this app has been copied into the [`app`](../app/) directory.
+The code for this app has been updated and copied into the [`app`](../app/) directory.
 If you haven't already done so, changed directory and install its dependencies:
 
 ```sh

@@ -7,9 +7,6 @@ by creating a new project and running the example tests.
 
 ## Creating a new Playwright project
 
-If you haven't already done so as part of [tutorial preparations]((../README.md#tutorial-setup)),
-let's set up the project.
-
 > [!TIP]
 > If you have a GitHub account, you should
 > [fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
@@ -17,6 +14,8 @@ let's set up the project.
 > Then, you can make your own commits and pushes to better record your progress.
 > Be sure to use the repository address for your forked version in the commands below.
 
+If you haven't already done so as part of [tutorial preparations]((../README.md#tutorial-setup)),
+let's set up the project.
 Clone this repository from GitHub:
 
 ```sh
