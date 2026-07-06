@@ -32,9 +32,9 @@
     "eslint-plugin-vue": "^9.1.0",
     "fs-extra": "^10.0.0",
     "import-fresh": "^3.3.0",
+    "jose": "^5.9.6",
     "json-server": "^0.17.0",
     "json-server-auth": "^2.1.0",
-    "jose": "^5.9.6",
     "leaflet": "^1.8.0",
     "moment": "^2.29.1",
     "nocache": "^3.0.1",
@@ -60,7 +60,9 @@
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@types/leaflet": "^1.7.11",
+    "@types/node": "^26.1.0",
     "eslint": "^8.5.0",
     "eslint-plugin-no-only-tests": "^2.6.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",

@@ -1,6 +1,241 @@
 {
-  "boards": [],
-  "cards": [],
-  "lists": [],
+  "boards": [
+    {
+      "name": "Chores",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 1
+    },
+    {
+      "name": "Chores 126176",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 2
+    },
+    {
+      "name": "Chores 812617",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 3
+    },
+    {
+      "name": "Chores 732387",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 4
+    },
+    {
+      "name": "Chores 681928",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 5
+    },
+    {
+      "name": "Chores 194297",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 6
+    },
+    {
+      "name": "Chores 226074",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 7
+    },
+    {
+      "name": "Chores 865363",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 8
+    },
+    {
+      "name": "Chores 619708",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 9
+    },
+    {
+      "name": "Chores 34640",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 10
+    },
+    {
+      "name": "Chores 745963",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 11
+    },
+    {
+      "name": "Chores 730980",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 12
+    },
+    {
+      "name": "Chores 593541",
+      "user": 0,
+      "starred": false,
+      "created": "2026-07-03",
+      "id": 13
+    }
+  ],
+  "cards": [
+    {
+      "order": 0,
+      "boardId": 2,
+      "listId": 1,
+      "name": "Buy groceries",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "order": 1,
+      "boardId": 2,
+      "listId": 1,
+      "name": "Mow the lawn",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "order": 2,
+      "boardId": 2,
+      "listId": 1,
+      "name": "Walk the dog",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "order": 0,
+      "boardId": 9,
+      "listId": 5,
+      "name": "Buy groceries",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "order": 0,
+      "boardId": 8,
+      "listId": 6,
+      "name": "Buy groceries",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "order": 1,
+      "boardId": 9,
+      "listId": 5,
+      "name": "Mow the lawn",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "order": 2,
+      "boardId": 9,
+      "listId": 5,
+      "name": "Walk the dog",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "order": 1,
+      "boardId": 8,
+      "listId": 6,
+      "name": "Mow the lawn",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "order": 2,
+      "boardId": 8,
+      "listId": 6,
+      "name": "Walk the dog",
+      "created": "2026-07-03",
+      "deadline": "2026-07-06",
+      "description": "",
+      "completed": false,
+      "id": 9
+    }
+  ],
+  "lists": [
+    {
+      "boardId": 2,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 1
+    },
+    {
+      "boardId": 4,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 2
+    },
+    {
+      "boardId": 6,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 3
+    },
+    {
+      "boardId": 11,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 4
+    },
+    {
+      "boardId": 9,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 5
+    },
+    {
+      "boardId": 8,
+      "name": "TODO",
+      "order": 0,
+      "created": "2026-07-03",
+      "id": 6
+    }
+  ],
   "users": []
 }

@@ -150,3 +150,7 @@ backend/data/uploaded/*
 
 # Keep .gitkeep files
 !/**/.gitkeep
+
+# Playwright
+/blob-report/
+/playwright/.auth/
